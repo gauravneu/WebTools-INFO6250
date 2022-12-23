@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<servlet-name>headers1</servlet-name>
+		<servlet-class>ShowServletGetRequests</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>headers1</servlet-name>
+		<url-pattern>/headers1</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

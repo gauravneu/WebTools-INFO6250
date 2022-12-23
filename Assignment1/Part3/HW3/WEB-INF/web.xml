@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<servlet-name>registration</servlet-name>
+		<servlet-class>Part3Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registration</servlet-name>
+		<url-pattern>/form.hml</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>form.html</welcome-file>
+	</welcome-file-list>
+</web-app>

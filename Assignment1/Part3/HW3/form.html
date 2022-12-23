@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>Form</h1>
+    <form action ="form.hml" method ="post">
+        <label for="email">E-mail:</label>
+        <input type="text" name="eMail" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="pass" required>
+        <br>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" name="confPass" required>
+        <br>
+        <label for="photo">Choose a photo!</label>
+        <input 
+          type="file"
+          id="photo" 
+          name="photo"
+          accept="image/*">
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gdr" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+
+          <label for="country-names">Select Country:</label>
+            <select name="cN" id="country-names" required>
+            <option value="iran">Iran</option>
+            <option value="india">India</option>
+            <option value="dubai">Dubai</option>
+        </select>
+        <br>
+        <label for="hobby">Hobby:</label>
+        <input type="checkbox"  name="hb" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox"  name="hb" value="Dancing">
+        <label for="dancing">Dancing</label>
+        <input type="checkbox"  name="hb" value="Painting">
+        <label for="painting">Painting</label>
+        <br>
+        
+        <label for="address">Address:</label>
+        <input type="textarea" name="ad" ows="4" cols="50" required></input>
+        <br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
